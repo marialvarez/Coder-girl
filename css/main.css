@@ -1,0 +1,113 @@
+* {
+    outline:1px solid rgba(255,0,0,0.4);
+    box-sizing: border-box;
+}
+/*---------------------------------------------------------------------------------------------------------------HEADER--*/
+header {
+    height: 40px;
+}
+header .logo {
+    margin:10px 0;
+}
+nav ul {
+    float: right;
+}
+nav ul li {
+    padding: 10px;
+}
+nav a {
+    padding: 10px 10px;
+    color:#000000;
+}
+nav a:hover {
+    text-decoration: none;
+    color:#000000;
+    text-shadow: 1px 0px #000000;
+}
+nav li:hover {
+    background-color: #e3e3e3;
+}
+/*---------------------------------------------------------------------------------------------------------------HERO--*/
+.hero {
+	background-image: url(../img/home.jpg);
+	background-size: cover;
+    background-attachment: fixed;
+	color:white;	
+}
+.portada {
+    margin: 15% 0;
+}
+h1 {
+	font-size: 27px;
+    color:#fff;
+}
+p {
+	color:black;
+}
+.titulo {
+	font-size:20px;
+	margin: 3%;
+}
+/*-------------------------------------------------------------------------------------------------------------HACKATHON--*/
+.hackathon {
+	background-color: yellow;
+	background-size: cover;
+	margin-top: 5%;
+}
+.imagen {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.foto {
+	margin:5%;
+}
+/*-------------------------------------------------------------------------------------------------------------CONTACTO--*/
+.contacto {
+    padding-bottom: 2%;
+}
+
+/*-------------------------------------------------------------------------------------------------------------FOOTER--*/
+.fin {
+	padding:3%;
+	background-color: #46A1BF;
+}
+
+@media only screen and (min-width:300px) and (max-width:1000px){
+    form {
+    	width:100%;
+    }
+
+    .col-4 {
+    	width: 100%;
+    }
+
+    .col-5 {
+    	width: 100%;
+    }
+
+    .col-6 {
+    	width: 100%;
+    }
+
+    .col-7 {
+    	width: 100%;
+    }
+
+    .col-8 {
+    	width: 100%;
+    }
+
+    .col-12 {
+    	width: 100%
+    }
+    nav {
+        display: none;
+    }
+    .icon-bar {
+        display: inline-block;
+        float: right;
+        margin: 10px;
+    }
+    .center {
+        text-align: center;
+    }
