@@ -2,30 +2,30 @@
     outline:1px solid rgba(255,0,0,0.4);
     box-sizing: border-box;
 }
-/*---------------------------------------------------------------------------------------------------------------HEADER--*/
+
+/*------------------------------------------------------------------------------ HEADER --*/
 header {
-    height: 40px;
+    background: #f2f2f2;
+    padding: 13px 0;
 }
-header .logo {
-    margin:10px 0;
+header .desktop-menu {
+    list-style: none;
+    text-align: right;
+    margin: 0;
 }
-nav ul {
-    float: right;
+.desktop-menu li {
+    display: inline-block;
 }
-nav ul li {
-    padding: 10px;
+.desktop-menu li a {
+    padding: 17px;
+    color: #000;
 }
-nav a {
-    padding: 10px 10px;
-    color:#000000;
-}
-nav a:hover {
+.desktop-menu li a:hover {
+    background: #ccc;
     text-decoration: none;
-    color:#000000;
-    text-shadow: 1px 0px #000000;
 }
-nav li:hover {
-    background-color: #e3e3e3;
+.menu-bar {
+    display: none;
 }
 /*---------------------------------------------------------------------------------------------------------------HERO--*/
 .hero {
@@ -99,14 +99,6 @@ p {
 
     .col-12 {
     	width: 100%
-    }
-    nav {
-        display: none;
-    }
-    .icon-bar {
-        display: inline-block;
-        float: right;
-        margin: 10px;
     }
     .center {
         text-align: center;
