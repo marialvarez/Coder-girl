@@ -4,28 +4,13 @@
 
 /*------------------------------------------------------------------------------ HEADER --*/
 header {
-    background: #f2f2f2;
-    padding: 13px 0;
+    margin-bottom: -20px;
 }
-header .desktop-menu {
-    list-style: none;
-    text-align: right;
-    margin: 0;
-}
-.desktop-menu li {
-    display: inline-block;
-}
-.desktop-menu li a {
-    padding: 17px;
-    color: #000;
-}
-.desktop-menu li a:hover {
+.nav li:hover {
     background: #ccc;
-    text-decoration: none;
+    
 }
-.menu-bar {
-    display: none;
-}
+
 /*---------------------------------------------------------------------------------------------------------------HERO--*/
 .hero {
 	background-image: url(../img/home.jpg);
@@ -71,7 +56,7 @@ p {
 	background-color: #46A1BF;
 }
 
-@media only screen and (min-width:300px) and (max-width:1000px){
+@media only screen and (min-width:300px) and (max-width:1100px){
     form {
     	width:100%;
     }
